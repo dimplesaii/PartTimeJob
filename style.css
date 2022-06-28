@@ -1,0 +1,79 @@
+body 
+{
+	font-family: 'Baloo chettan 2',cursive;
+	line-height : 1.5;
+    background-color: black;
+}
+.heading1{
+    color: rgb(0, 255, 208);
+    font-size: 2rem;
+    font-family: 'Baloo chettan 2',cursive;
+    text-align: center;
+
+    font-family:serif;
+}
+.heading {
+    color: rgb(215, 248, 250);
+    font-size: 2rem;
+    font-family: 'Baloo chettan 2',cursive;
+    text-align: center;
+
+    font-family:serif;
+   
+}
+.about-icon .fab
+{
+	
+	color : white;
+   
+}
+.about-icon .fas
+{
+	
+	color : white;
+   
+}
+.about-icon .far
+{
+	
+	color : white;
+   
+}
+/*.about-icons .fab
+{
+
+	color :rgb(15, 153, 218);
+   
+}*/
+.far:hover{
+    opacity:0.7;
+}
+.fas:hover{
+    opacity:0.7;
+}
+.fab:hover{
+    opacity:0.7;
+}
+ 
+.about-icon {
+  
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    position: relative;
+    align-content: flex-end;
+    flex-direction: column;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+ 
+  u { 
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
